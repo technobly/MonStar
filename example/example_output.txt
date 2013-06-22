@@ -1,0 +1,48 @@
+C:\MonStar>node monstar_test.js
+>>> BOT #1 is online.
+>>> BOT #2 is online.
+>>> BOT #2 will now go terminate.
+>>> BOT #1 will now crash
+
+timers.js:103
+            if (!process.listeners('uncaughtException').length) throw e;
+                                                                      ^
+TypeError: Object brick wall has no method 'push'
+    at Object._onTimeout (C:\MonStar\bot1.js:12:11)
+    at Timer.list.ontimeout (timers.js:101:19)
+>>> BOT #2 offline for 20 seconds.
+>>> BOT #2 offline for 25 seconds.
+>>> BOT #1 offline for 20 seconds.
+>>> BOT #2 offline for 30 seconds.
+>>> BOT #1 offline for 25 seconds.
+>>> BOT #2 offline for 35 seconds.
+>>> BOT #1 offline for 30 seconds.
+>>> BOT #2 offline for 40 seconds now, restarting!!!!!
+>>> BOT #2 restarted 1 time(s) now.
+>>> BOT #1 offline for 35 seconds.
+>>> BOT #2 is online.
+>>> BOT #1 offline for 40 seconds now, restarting!!!!!
+>>> BOT #1 restarted 1 time(s) now.
+>>> BOT #1 is online.
+>>> BOT #2 will now go terminate.
+>>> BOT #1 will now crash
+
+timers.js:103
+            if (!process.listeners('uncaughtException').length) throw e;
+                                                                      ^
+TypeError: Object brick wall has no method 'push'
+    at Object._onTimeout (C:\MonStar\bot1.js:12:11)
+    at Timer.list.ontimeout (timers.js:101:19)
+>>> BOT #2 offline for 20 seconds.
+>>> BOT #2 offline for 25 seconds.
+>>> BOT #2 offline for 30 seconds.
+>>> BOT #2 offline for 35 seconds.
+>>> BOT #1 offline for 20 seconds.
+>>> BOT #2 offline for 40 seconds now, restarting!!!!!
+>>> BOT #2 restarted 2 time(s) now.
+>>> BOT #1 offline for 25 seconds.
+>>> BOT #2 is online.
+>>> BOT #1 offline for 30 seconds.
+>>> BOT #1 offline for 35 seconds.
+>>> BOT #1 offline for 40 seconds now, restarting!!!!!
+>>> BOT #1 restarted 2 time(s) now.
