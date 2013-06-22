@@ -8,6 +8,7 @@ MonStar
 2. Add the code on lines 36-45 to your bot
 3. Add your bot's path to the process_list array
 4. RUN with "node monstar.js"
+5. CTRL+C to end the task (in Windows), or just close the window.
 
 * Note: you could run a bunch of bots from one script, but it may start to
 get confusing with all of the logs in one terminal.  This process is so
